@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-card {
+  background-color: #f5d0fe;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-card {
+  height: 200px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: small;
+}
+.input {
+  height: 35px;
+  width: 180px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.button {
+  height: 35px;
+  width: 60px;
+  margin: 5px;
+  background-color: #d946ef;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.input-card {
+  display: flex;
+  align-items: center;
+}
